@@ -1,0 +1,30 @@
+.cardCore{
+  /* border: 1px solid gray; */
+  padding: 15px;
+  border-radius: 40px;
+
+}
+.bg32{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.cardCore p{
+  font-size: 0.9rem;
+}
+.meaning-card{
+  height: 15rem;
+  transition: transform 330ms ease-in-out;
+}
+
+.meaning-card h3{
+  font-size: 1.4rem;
+}
+
+.meaning-card p{
+  font-size: 0.9rem;
+}
+
+.meaning-card:hover{
+  transform: scale(1.05);
+}

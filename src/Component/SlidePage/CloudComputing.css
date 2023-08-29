@@ -1,0 +1,184 @@
+.Slider{
+    margin-top: 100px;
+
+}
+
+.bg11 {
+    /* background: rgb(183, 238, 238); */
+    background: linear-gradient(90deg, rgb(197, 169, 174) 10%, #babde8 100%, rgb(34, 21, 21) 15%);
+    margin-top: -45px;
+    height: 200px;
+    width: 78rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px #000000ee;
+
+    /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+}
+
+.p{
+    font-size: medium;
+}
+
+.autonomous  {
+
+    height: 200px;
+    width: 600px;
+    border-bottom: 2px solid var(--color-gray-400);
+}
+
+.autonomous img{
+
+margin-top: 5%;
+}
+
+.middle{
+    margin-top: 10%;
+    
+}
+
+
+.about__section-image {
+
+    
+    height: 250px;
+    overflow: hidden;
+    
+    transition: var(--transition);
+}
+
+
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .AB-text h1 {
+      font-size: 30px;
+    }
+  
+    .b1 {
+      margin-top: 3%;
+    }
+  
+    .bg {
+      margin-left: 5%;
+    }
+  }
+  
+  /* Media queries for medium screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .AB-text h1 {
+      font-size: 40px;
+    }
+  
+    .b1 {
+      margin-top: 4%;
+    }
+  }
+
+.para{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
+    
+}
+
+.bg4 {
+    position: relative;
+    height: 30px;
+    margin-top: 5.5rem;
+    width: auto;
+    /* position: fixed-top; */
+}
+
+.navbutton1{
+    color: black;
+    margin-inline-start: 25px;
+}
+
+.AB-text{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: -15%;
+    justify-content: center;
+ 
+}
+
+
+
+.AB-text p{
+    font-weight: bold;
+    text-transform: inherit;
+    font-family: 'ITC Avant GardeStd Bold';  
+}
+
+.bg32{
+    margin-top: 6.5%;
+    width: 100%;
+}
+
+.b1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+.paragraph{
+    margin-top: 20px;
+    font-weight:bold;
+    background-color: rgb(228, 234, 234);
+text-decoration: transparent;
+}
+
+
+
+
+/* Add the necessary CSS styles */
+
+@media (max-width: 768px) {
+    /* Styles for small screens */
+    .container {
+      padding: 0 10px;
+    }
+    
+    .logo-image {
+      height: 250px;
+    }
+    
+    .b1 {
+      margin-top: 3%;
+    }
+    
+    .bg32 {
+      margin-top: 5%;
+    }
+    
+    .image {
+      height: 200px;
+    }
+    
+    .paragraph {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+    .logo-image {
+      height: 300px;
+    }
+    
+    .b1 {
+      margin-top: 4%;
+    }
+  }
+  

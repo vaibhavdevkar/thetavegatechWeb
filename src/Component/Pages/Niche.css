@@ -1,0 +1,46 @@
+.header1 {
+  margin-top: 25px;
+  margin-left: 10px;
+  font-style: bold;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.track {
+  margin-left: 0;
+}
+
+.track1 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.anima {
+  margin-top: 30px;
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 576px) {
+  /* Styles applied for small devices */
+  .col-10 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  /* Styles applied for medium and large devices */
+  .col-sm-12 {
+    margin-bottom: 15px;
+  }
+}
+/* Niche.css */
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+

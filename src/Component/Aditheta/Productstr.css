@@ -1,0 +1,45 @@
+.prdtab{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.tab11{
+    margin-top: 8%;
+}
+
+.t11{
+    background-color: orange;
+    color: aliceblue;
+    
+}
+
+.t12{
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.t111{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.text h4{
+    color: orange;
+}
+
+.view{
+    margin-top: 5%;
+}

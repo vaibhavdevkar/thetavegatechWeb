@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@500&family=Mulish:wght@200&family=Playfair+Display&family=Poppins:ital,wght@0,300;0,400;1,200;1,300&family=Roboto&display=swap');
+
+.App1{
+  font-family: 'Poppins', sans-serif 8 !important;
+}
+
+
+/* 
+#header {
+  background-color: antiquewhite;
+ 
+  height:80vh;
+  margin-top: 7px ;
+}
+
+#header1 h1{
+  margin: 0 0 10px 0;
+  font-size: 38px;
+  font-weight: 700;
+  color: black;
+}
+
+.header-img{
+  text-align: center;
+} */
+
+
+
+#middle {
+  margin-top: 100px !important;
+ 
+}
+
+#middle1 {
+  margin-top: 100px !important;
+}
+
+#textlast {
+  color: black !important;
+}
+
+
+
+
+

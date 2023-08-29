@@ -1,0 +1,125 @@
+/* Default styles */
+
+.product0 {
+  margin-top: 5.2rem;
+}
+
+#maincontainer-1 {
+  padding: 20px !important;
+  height: 100vh;
+}
+
+#listproduct {
+  margin-top: 15px !important;
+  width: 350px !important;
+}
+
+#productbutton {
+  width: 250px !important;
+}
+
+#bg10 {
+  height: 180px;
+  width: auto;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.kk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ajay {
+  justify-content: center;
+  text-align: center;
+}
+
+.moto1 h5 {
+  font-size: 18px;
+}
+
+.moto1 {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 200px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  border: 1.5px solid orange;
+  box-shadow: 0px 0px 10px rgba(240, 93, 14, 0.2);
+  transition: transform 0.3s ease-out;
+  gap: 2rem;
+  margin-top: -7rem;
+  margin-inline: 10px;
+  box-shadow: 0px 0px 10px 1px #000000ee;
+}
+
+.moto1:hover {
+  box-shadow: 0 0 10px rgba(240, 93, 14, 0.2) inset, 0 0 20px 2px rgba(240, 93, 14, 0.2);
+  border: 3px solid rgba(240, 93, 14, 0.2);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+  #listproduct {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #maincontainer-1 {
+    padding: 10px !important;
+  }
+  
+  .moto1 {
+    width: 120px;
+    height: 150px;
+  }
+  
+  .moto1 h5 {
+    font-size: 16px;
+  }
+  
+  .ajay button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+ @media screen and (max-width: 768px) {
+  /* Adjust the margin-top for .product0 */
+  .product0 {
+    margin-top: 3rem;
+  }
+
+  /* Adjust the width for #listproduct */
+  #listproduct {
+    width: 100%;
+  }
+
+  /* Adjust the width for #productbutton */
+  #productbutton {
+    width: 100%;
+  }
+
+  /* Adjust the height for #bg10 */
+  #bg10 {
+    height: 100px;
+  }
+
+  /* Adjust the font-size for .moto1 h5 */
+  .moto1 h5 {
+    font-size: 16px;
+  }
+
+  /* Hide the margin-top for .moto1 */
+  .moto1 {
+    margin-top: 0;
+  }
+}

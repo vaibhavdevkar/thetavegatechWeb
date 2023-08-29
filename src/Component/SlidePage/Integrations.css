@@ -1,0 +1,145 @@
+.Slider{
+    margin-top: 100px;
+
+}
+
+.AB-text1{
+    width: auto;
+    height: auto;
+    
+ 
+}
+
+.AB-text1 h1 {
+    font-size: 45px;
+    position: relative;
+  
+    
+    
+}
+
+.AB-text1 p{
+    font-weight: bold;
+    text-transform: inherit;
+    font-family: 'ITC Avant GardeStd Bold';  
+}
+
+.bg32{
+    margin-top: 0%;
+}
+
+.p{
+    font-size: medium;
+}
+
+.autonomous  {
+    margin-top: 6rem;
+    height: 200px;
+    width: 600px;
+    border-bottom: 2px solid var(--color-gray-400);
+}
+
+.b1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.bg{
+    align-items: center;
+    margin-left: 22rem;
+    font-weight: bold;
+    text-transform: inherit;
+    
+}
+
+.paragraph{
+    margin-top: -5rem;
+    font-weight:bold;
+    background-color: rgb(228, 234, 234);
+text-decoration: transparent;
+}
+
+.bg2 {
+    height: 30px;
+    margin-top: 5.5rem;
+    width: auto;
+    
+    /* background: linear-gradient(90deg,orange 0%, #efd5ff 100%); */
+}
+
+.navbutton1{
+    color: black;
+    margin-inline-start: 25px;
+}
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .AB-text h1 {
+      font-size: 30px;
+    }
+  
+    .b1 {
+      margin-top: 3%;
+    }
+  
+    .bg {
+      margin-left: 5%;
+    }
+  }
+  
+  /* Media queries for medium screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .AB-text h1 {
+      font-size: 40px;
+    }
+  
+    .b1 {
+      margin-top: 4%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for small screens */
+    .container {
+      padding: 0 10px;
+    }
+    
+    .logo-image {
+      height: 250px;
+    }
+    
+    .b1 {
+      margin-top: 3%;
+    }
+    
+    .bg32 {
+      margin-top: 5%;
+    }
+    
+    .image {
+      height: 200px;
+    }
+    
+    .paragraph {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+    .logo-image {
+      height: 300px;
+    }
+    
+    .b1 {
+      margin-top: 4%;
+    }
+  }
+  
+

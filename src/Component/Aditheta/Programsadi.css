@@ -1,0 +1,107 @@
+.procon {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+
+}
+
+.program1 {
+    margin-top: 8%;
+    color: orange;
+
+
+}
+
+.program2 {
+    margin-top: 3%;
+    color: orange;
+}
+
+.program2 p {
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: start;
+    color: black;
+}
+
+.program3 {
+    margin-top: 4%;
+    color: orange;
+
+}
+
+.program3 p {
+    text-align: start;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: black;
+}
+
+.program4 {
+    margin: 5% 3%;
+    color: orange;
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.pro1 {
+    background-color: orange;
+    color: aliceblue;
+
+}
+
+.pro2 {
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.program5 {
+    margin: 0 3%;
+    color: orange;
+}
+
+.program5 p {
+    margin-top: 5%;
+    color: orange;
+}
+
+@media (max-width: 768px) {
+
+    .pro1 h4 {
+        font-size: 13px;
+    }
+    .pro2 h4 {
+        font-size: 13px;
+    }
+
+}
+
+
+.program7 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: orange;
+
+}
+
+
+
+.program7 p {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: start;
+    color: black;
+}
